@@ -2,6 +2,33 @@ export default function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>
 
+      {/* NAVIGATION */}
+      <nav
+        style={{
+          backgroundColor: "#4b2a63",
+          color: "white",
+          padding: "15px 30px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          position: "sticky",
+          top: 0
+        }}
+      >
+        <div style={{ fontWeight: "bold", fontSize: "20px" }}>
+          Rise Up & Shine
+        </div>
+
+        <div style={{ display: "flex", gap: "20px" }}>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>Home</a>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>Coaching</a>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>Speaking</a>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>Blog</a>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>Prayer</a>
+          <a href="#" style={{ color: "white", textDecoration: "none" }}>Contact</a>
+        </div>
+      </nav>
+
       {/* HERO SECTION */}
       <header
         style={{
@@ -36,7 +63,7 @@ export default function App() {
         </div>
       </header>
 
-      {/* ABOUT SECTION */}
+      {/* ABOUT */}
       <section style={{ padding: "60px 20px", textAlign: "center" }}>
         <h2>Helping Women Rise from Emotional Exhaustion</h2>
 
@@ -46,51 +73,6 @@ export default function App() {
           faith-based coaching, speaking engagements, and healing workshops,
           women rediscover identity, boundaries, and purpose.
         </p>
-      </section>
-
-      {/* SERVICES */}
-      <section
-        style={{
-          backgroundColor: "#f4f4f4",
-          padding: "60px 20px",
-          textAlign: "center"
-        }}
-      >
-        <h2>Ways We Can Work Together</h2>
-
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "40px",
-            flexWrap: "wrap",
-            marginTop: "30px"
-          }}
-        >
-          <div style={{ maxWidth: "250px" }}>
-            <h3>Faith Coaching</h3>
-            <p>
-              One-on-one guidance helping women process emotions,
-              strengthen faith, and rebuild healthy boundaries.
-            </p>
-          </div>
-
-          <div style={{ maxWidth: "250px" }}>
-            <h3>Healing Workshops</h3>
-            <p>
-              Transformational workshops designed to guide women through
-              emotional healing and spiritual growth.
-            </p>
-          </div>
-
-          <div style={{ maxWidth: "250px" }}>
-            <h3>Speaking Engagements</h3>
-            <p>
-              Powerful messages for churches, conferences, and women's
-              events focused on restoration and hope.
-            </p>
-          </div>
-        </div>
       </section>
 
       {/* FOOTER */}
