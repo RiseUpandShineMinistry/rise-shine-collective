@@ -1,22 +1,49 @@
-<header style={{
-  backgroundImage:"url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')",
-  backgroundSize:"cover",
-  backgroundPosition:"center",
-  color:"white",
-  padding:"140px 20px",
-  textAlign:"center"
-}}>
-  <div style={{
-    background:"rgba(0,0,0,0.45)",
-    padding:"40px",
-    borderRadius:"10px",
-    display:"inline-block"
-  }}>
-    <h1 style={{fontSize:"48px"}}>Rise Up & Shine Ministry</h1>
-    <p style={{fontSize:"22px"}}>Faith. Healing. Freedom.</p>
-    <p>You’ve carried others. Now it’s time to care for you.</p>
-  </div>
-</header>
+export default function App() {
+  return (
+    <div style={{fontFamily:"Arial, sans-serif", lineHeight:"1.6"}}>
+
+      <header
+        style={{
+          backgroundImage:"url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')",
+          backgroundSize:"cover",
+          backgroundPosition:"center",
+          color:"white",
+          padding:"140px 20px",
+          textAlign:"center"
+        }}
+      >
+        <div style={{
+          background:"rgba(0,0,0,0.45)",
+          padding:"40px",
+          borderRadius:"10px",
+          display:"inline-block"
+        }}>
+          <h1 style={{fontSize:"48px"}}>Rise Up & Shine Ministry</h1>
+          <p style={{fontSize:"22px"}}>Faith. Healing. Freedom.</p>
+          <p>You’ve carried others. Now it’s time to care for you.</p>
+        </div>
+      </header>
+
+      <section style={{padding:"60px 20px", textAlign:"center"}}>
+        <h2>Helping Women Rise from Emotional Exhaustion</h2>
+        <p style={{maxWidth:"700px", margin:"auto"}}>
+          Rise Up & Shine Ministry exists to help women heal emotionally,
+          strengthen their faith, and rediscover their identity in Christ.
+        </p>
+      </section>
+
+      <footer style={{
+        background:"#4b2a63",
+        color:"white",
+        textAlign:"center",
+        padding:"30px"
+      }}>
+        <p>© Rise Up & Shine Ministry</p>
+      </footer>
+
+    </div>
+  )
+}
       }}>
         <h1 style={{fontSize:"48px"}}>Rise Up & Shine Ministry</h1>
         <p style={{fontSize:"22px"}}>Faith. Healing. Freedom.</p>
