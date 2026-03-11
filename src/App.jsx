@@ -1,28 +1,13 @@
-export default function App() {
-  return (
-    <div style={{fontFamily:"Arial, sans-serif", lineHeight:"1.6"}}>
-
-      <header
-        style={{
-          backgroundImage:"url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')",
-          backgroundSize:"cover",
-          backgroundPosition:"center",
-          color:"white",
-          padding:"140px 20px",
-          textAlign:"center"
-        }
-      >
-        <div style={{
-          background:"rgba(0,0,0,0.45)",
-          padding:"40px",
-          borderRadius:"10px",
-          display:"inline-block"
-        }}>
-          <h1 style={{fontSize:"48px"}}>Rise Up & Shine Ministry</h1>
-          <p style={{fontSize:"22px"}}>Faith. Healing. Freedom.</p>
-          <p>You’ve carried others. Now it’s time to care for you.</p>
-        </div>
-      </header>
+<header style={{
+  background:"#4b2a63",
+  color:"white",
+  padding:"120px 20px",
+  textAlign:"center"
+}}>
+  <h1 style={{fontSize:"48px"}}>Rise Up & Shine Ministry</h1>
+  <p style={{fontSize:"22px"}}>Faith. Healing. Freedom.</p>
+  <p>You’ve carried others. Now it’s time to care for you.</p>
+</header>
 
       <section style={{padding:"60px 20px", textAlign:"center"}}>
         <h2>Helping Women Rise from Emotional Exhaustion</h2>
