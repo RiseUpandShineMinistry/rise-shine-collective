@@ -10,7 +10,7 @@ export default function App() {
           color:"white",
           padding:"140px 20px",
           textAlign:"center"
-        }}
+        }
       >
         <div style={{
           background:"rgba(0,0,0,0.45)",
